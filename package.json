@@ -1,0 +1,9 @@
+{
+  "name": "Test_module_3",
+  "version": "1.0.0",
+  "dependencies": {
+    "cookie": "^0.5.0",
+    "mysql": "^2.18.1",
+    "qs": "^6.10.5"
+  }
+}

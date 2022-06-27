@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h2>Thêm thành phố mới:</h2>
+<form action="/add" method="post">
+    <table border="1">
+        <tr>
+            <th>Tên</th>
+            <td><input type="text" name="name"></td>
+        </tr>
+        <tr>
+            <th>Quốc gia</th>
+            <td><input type="text" name="country"></td>
+        </tr>
+        <tr>
+            <th>Diện tích</th>
+            <td><input type="text" name="area"></td>
+        </tr>
+        <tr>
+            <th>Dân số</th>
+            <td><input type="text" name="population"></td>
+        </tr>
+        <tr>
+            <th>GDP</th>
+            <td><input type="text" name="gdp"></td>
+        </tr>
+        <tr>
+            <td><button type="submit">Add</button></td>
+        </tr>
+    </table>
+</form>
+<h1>Danh sách thành phố:</h1>
+<table border="1">
+    <tr>
+        <th>#</th>
+        <th>Thành phố</th>
+        <th>Quốc gia</th>
+    </tr>
+    {result}
+</table>
+</body>
+</html>
